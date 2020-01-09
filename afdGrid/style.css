@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+body{
+  font-family: 'Satisfy', cursive;
+  margin: 0;
+  padding: 0;
+}
+#container{
+  max-width: 100%;
+
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.container img {
+  max-width: 100%;
+}
+.container h3 {
+  grid-column: span 2 ;
+  text-align: right;
+}
+#plaatje0 {
+grid-row: span 2;
+}
+#plaatje7{
+  grid-row: span 2;
+}
