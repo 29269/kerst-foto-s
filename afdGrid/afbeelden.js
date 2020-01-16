@@ -10,7 +10,8 @@ const foto=[
   "https://images.pexels.com/photos/1261373/pexels-photo-1261373.jpeg?cs=srgb&dl=woman-in-gray-cardigan-giving-white-gift-box-1261373.jpg&fm=jpg",
   "https://images.pexels.com/photos/284011/pexels-photo-284011.jpeg?cs=srgb&dl=beautiful-bokeh-christmas-284011.jpg&fm=jpg"
 ];
+let container = document.getElementById('container');
 
-for(i=0; i < 10; i++) {
+for(i=0; i < foto.length; i++) {
   container.innerHTML+='<img src="'+foto[i]+'" alt="newyear '+ i +'" id="plaatje'+ i +'">'
 };
